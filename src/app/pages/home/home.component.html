@@ -14,7 +14,7 @@
                     <strong>Publicado:</strong> {{ video.publishedAt | date }}
                 </p>
                 <div class="d-grid gap-2">
-                    <button class="btn btn-outline-primary btn-block">
+                    <button (click)="mostrarVideo(video)" class="btn btn-outline-primary btn-block">
                     Ver Video
                     </button>
                 </div>
